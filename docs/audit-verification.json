@@ -1,0 +1,2037 @@
+{
+  "fixture": "Independent one-generation x² example",
+  "passed": true,
+  "comparisons": 29,
+  "checks": [
+    {
+      "name": "Binary decoding",
+      "expected": [
+        13,
+        24,
+        8,
+        19
+      ],
+      "actual": [
+        13,
+        24,
+        8,
+        19
+      ],
+      "passed": true
+    },
+    {
+      "name": "Initial fitness",
+      "expected": [
+        169,
+        576,
+        64,
+        361
+      ],
+      "actual": [
+        169,
+        576,
+        64,
+        361
+      ],
+      "passed": true
+    },
+    {
+      "name": "Initial total / average / best",
+      "expected": [
+        1170,
+        292.5,
+        576
+      ],
+      "actual": [
+        1170,
+        292.5,
+        576
+      ],
+      "passed": true
+    },
+    {
+      "name": "Roulette probabilities",
+      "expected": [
+        0.14444444444444443,
+        0.49230769230769234,
+        0.0547008547008547,
+        0.30854700854700856
+      ],
+      "actual": [
+        0.14444444444444443,
+        0.49230769230769234,
+        0.0547008547008547,
+        0.30854700854700856
+      ],
+      "passed": true
+    },
+    {
+      "name": "Cumulative intervals",
+      "expected": [
+        0.14444444444444443,
+        0.6367521367521367,
+        0.6914529914529914,
+        1
+      ],
+      "actual": [
+        0.14444444444444443,
+        0.6367521367521367,
+        0.6914529914529914,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "name": "Selected parents",
+      "expected": [
+        "01101",
+        "11000",
+        "01000",
+        "10011"
+      ],
+      "actual": [
+        "01101",
+        "11000",
+        "01000",
+        "10011"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Crossover at third bit",
+      "expected": [
+        "01100",
+        "11001",
+        "01011",
+        "10000"
+      ],
+      "actual": [
+        "01100",
+        "11001",
+        "01011",
+        "10000"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Final chromosomes",
+      "expected": [
+        "01101",
+        "11001",
+        "01011",
+        "10000"
+      ],
+      "actual": [
+        "01101",
+        "11001",
+        "01011",
+        "10000"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Mutated positions (1-based)",
+      "expected": [
+        [
+          5
+        ],
+        [],
+        [],
+        []
+      ],
+      "actual": [
+        [
+          5
+        ],
+        [],
+        [],
+        []
+      ],
+      "passed": true
+    },
+    {
+      "name": "Final fitness",
+      "expected": [
+        169,
+        625,
+        121,
+        256
+      ],
+      "actual": [
+        169,
+        625,
+        121,
+        256
+      ],
+      "passed": true
+    },
+    {
+      "name": "Final total / average / best",
+      "expected": [
+        1171,
+        292.75,
+        625
+      ],
+      "actual": [
+        1171,
+        292.75,
+        625
+      ],
+      "passed": true
+    },
+    {
+      "name": "Selection samples",
+      "expected": [
+        0.1,
+        0.4,
+        0.68,
+        0.9
+      ],
+      "actual": [
+        0.1,
+        0.4,
+        0.68,
+        0.9
+      ],
+      "passed": true
+    },
+    {
+      "name": "Selected population indices",
+      "expected": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "actual": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "passed": true
+    },
+    {
+      "name": "Every recorded probability table",
+      "expected": [
+        [
+          0.14444444444444443,
+          0.49230769230769234,
+          0.0547008547008547,
+          0.30854700854700856
+        ],
+        [
+          0.14444444444444443,
+          0.49230769230769234,
+          0.0547008547008547,
+          0.30854700854700856
+        ],
+        [
+          0.14444444444444443,
+          0.49230769230769234,
+          0.0547008547008547,
+          0.30854700854700856
+        ],
+        [
+          0.14444444444444443,
+          0.49230769230769234,
+          0.0547008547008547,
+          0.30854700854700856
+        ]
+      ],
+      "actual": [
+        [
+          0.14444444444444443,
+          0.49230769230769234,
+          0.0547008547008547,
+          0.30854700854700856
+        ],
+        [
+          0.14444444444444443,
+          0.49230769230769234,
+          0.0547008547008547,
+          0.30854700854700856
+        ],
+        [
+          0.14444444444444443,
+          0.49230769230769234,
+          0.0547008547008547,
+          0.30854700854700856
+        ],
+        [
+          0.14444444444444443,
+          0.49230769230769234,
+          0.0547008547008547,
+          0.30854700854700856
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "Every recorded cumulative table",
+      "expected": [
+        [
+          0.14444444444444443,
+          0.6367521367521367,
+          0.6914529914529914,
+          1
+        ],
+        [
+          0.14444444444444443,
+          0.6367521367521367,
+          0.6914529914529914,
+          1
+        ],
+        [
+          0.14444444444444443,
+          0.6367521367521367,
+          0.6914529914529914,
+          1
+        ],
+        [
+          0.14444444444444443,
+          0.6367521367521367,
+          0.6914529914529914,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          0.14444444444444443,
+          0.6367521367521367,
+          0.6914529914529914,
+          1
+        ],
+        [
+          0.14444444444444443,
+          0.6367521367521367,
+          0.6914529914529914,
+          1
+        ],
+        [
+          0.14444444444444443,
+          0.6367521367521367,
+          0.6914529914529914,
+          1
+        ],
+        [
+          0.14444444444444443,
+          0.6367521367521367,
+          0.6914529914529914,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "Crossover checks and cut draws",
+      "expected": [
+        [
+          0,
+          0.5
+        ],
+        [
+          0,
+          0.5
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          0.5
+        ],
+        [
+          0,
+          0.5
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "Crossover boundaries and application",
+      "expected": [
+        [
+          3,
+          true
+        ],
+        [
+          3,
+          true
+        ]
+      ],
+      "actual": [
+        [
+          3,
+          true
+        ],
+        [
+          3,
+          true
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "Crossover decoded integers",
+      "expected": [
+        12,
+        25,
+        11,
+        16
+      ],
+      "actual": [
+        12,
+        25,
+        11,
+        16
+      ],
+      "passed": true
+    },
+    {
+      "name": "Crossover fitness",
+      "expected": [
+        144,
+        625,
+        121,
+        256
+      ],
+      "actual": [
+        144,
+        625,
+        121,
+        256
+      ],
+      "passed": true
+    },
+    {
+      "name": "Every mutation sample",
+      "expected": [
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.05,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9
+      ],
+      "actual": [
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.05,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9
+      ],
+      "passed": true
+    },
+    {
+      "name": "Mutation checks passed per child",
+      "expected": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "actual": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "name": "Final decoded integers",
+      "expected": [
+        13,
+        25,
+        11,
+        16
+      ],
+      "actual": [
+        13,
+        25,
+        11,
+        16
+      ],
+      "passed": true
+    },
+    {
+      "name": "Crossover parent lineage",
+      "expected": [
+        [
+          "g0-001",
+          "g0-002"
+        ],
+        [
+          "g0-001",
+          "g0-002"
+        ],
+        [
+          "g0-003",
+          "g0-004"
+        ],
+        [
+          "g0-003",
+          "g0-004"
+        ]
+      ],
+      "actual": [
+        [
+          "g0-001",
+          "g0-002"
+        ],
+        [
+          "g0-001",
+          "g0-002"
+        ],
+        [
+          "g0-003",
+          "g0-004"
+        ],
+        [
+          "g0-003",
+          "g0-004"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "Inherited parent per locus",
+      "expected": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "actual": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "Independent initial/final Hamming diversity",
+      "expected": [
+        0.5666666666666667,
+        0.5333333333333333
+      ],
+      "actual": [
+        0.5666666666666667,
+        0.5333333333333333
+      ],
+      "passed": true
+    },
+    {
+      "name": "Population, generation and elitism",
+      "expected": [
+        4,
+        1,
+        0
+      ],
+      "actual": [
+        4,
+        1,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "name": "Fitness evaluations and random draws",
+      "expected": [
+        12,
+        28
+      ],
+      "actual": [
+        12,
+        28
+      ],
+      "passed": true
+    },
+    {
+      "name": "Replacement fitness is the recorded mutation result",
+      "expected": [
+        169,
+        625,
+        121,
+        256
+      ],
+      "actual": [
+        169,
+        625,
+        121,
+        256
+      ],
+      "passed": true
+    },
+    {
+      "name": "Termination and target status",
+      "expected": [
+        "Maximum generations reached",
+        false
+      ],
+      "actual": [
+        "Maximum generations reached",
+        false
+      ],
+      "passed": true
+    }
+  ],
+  "config": {
+    "problem": "function",
+    "populationSize": 4,
+    "maxGenerations": 1,
+    "crossoverRate": 1,
+    "mutationRate": 0.1,
+    "selection": "roulette",
+    "crossover": "single",
+    "mutation": "bit",
+    "elitism": 0,
+    "tournamentSize": 3,
+    "seed": 42,
+    "earlyStopping": false,
+    "stagnation": 30,
+    "functionPreset": "square",
+    "bits": 5,
+    "domainMin": 0,
+    "domainMax": 31,
+    "cities": [
+      {
+        "x": 90,
+        "y": 80
+      },
+      {
+        "x": 240,
+        "y": 40
+      },
+      {
+        "x": 410,
+        "y": 75
+      },
+      {
+        "x": 490,
+        "y": 220
+      },
+      {
+        "x": 390,
+        "y": 320
+      },
+      {
+        "x": 210,
+        "y": 290
+      },
+      {
+        "x": 55,
+        "y": 220
+      },
+      {
+        "x": 270,
+        "y": 160
+      }
+    ],
+    "items": [
+      {
+        "name": "Camera",
+        "weight": 4,
+        "value": 12
+      },
+      {
+        "name": "Water",
+        "weight": 3,
+        "value": 8
+      },
+      {
+        "name": "Tent",
+        "weight": 7,
+        "value": 18
+      },
+      {
+        "name": "Map",
+        "weight": 1,
+        "value": 5
+      },
+      {
+        "name": "Food",
+        "weight": 5,
+        "value": 14
+      },
+      {
+        "name": "Jacket",
+        "weight": 4,
+        "value": 9
+      }
+    ],
+    "capacity": 15,
+    "queens": 8,
+    "target": "HELLO GENX"
+  },
+  "trace": {
+    "individuals": [
+      {
+        "id": "g0-001",
+        "genes": [
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "born": 0,
+        "parents": [],
+        "mutations": [],
+        "sources": [],
+        "objective": 169,
+        "fitness": 169,
+        "feasible": true,
+        "decoded": "x = 13",
+        "details": {
+          "x": 13,
+          "binary": 13
+        }
+      },
+      {
+        "id": "g0-002",
+        "genes": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "born": 0,
+        "parents": [],
+        "mutations": [],
+        "sources": [],
+        "objective": 576,
+        "fitness": 576,
+        "feasible": true,
+        "decoded": "x = 24",
+        "details": {
+          "x": 24,
+          "binary": 24
+        }
+      },
+      {
+        "id": "g0-003",
+        "genes": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "born": 0,
+        "parents": [],
+        "mutations": [],
+        "sources": [],
+        "objective": 64,
+        "fitness": 64,
+        "feasible": true,
+        "decoded": "x = 8",
+        "details": {
+          "x": 8,
+          "binary": 8
+        }
+      },
+      {
+        "id": "g0-004",
+        "genes": [
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "born": 0,
+        "parents": [],
+        "mutations": [],
+        "sources": [],
+        "objective": 361,
+        "fitness": 361,
+        "feasible": true,
+        "decoded": "x = 19",
+        "details": {
+          "x": 19,
+          "binary": 19
+        }
+      },
+      {
+        "id": "g1-005",
+        "genes": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "born": 1,
+        "parents": [
+          "g0-001",
+          "g0-002"
+        ],
+        "mutations": [],
+        "sources": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "objective": 144,
+        "fitness": 144,
+        "feasible": true,
+        "decoded": "x = 12",
+        "details": {
+          "x": 12,
+          "binary": 12
+        }
+      },
+      {
+        "id": "g1-006",
+        "genes": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "born": 1,
+        "parents": [
+          "g0-001",
+          "g0-002"
+        ],
+        "mutations": [],
+        "sources": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "objective": 625,
+        "fitness": 625,
+        "feasible": true,
+        "decoded": "x = 25",
+        "details": {
+          "x": 25,
+          "binary": 25
+        }
+      },
+      {
+        "id": "g1-005",
+        "genes": [
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "born": 1,
+        "parents": [
+          "g0-001",
+          "g0-002"
+        ],
+        "mutations": [
+          4
+        ],
+        "sources": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "objective": 169,
+        "fitness": 169,
+        "feasible": true,
+        "decoded": "x = 13",
+        "details": {
+          "x": 13,
+          "binary": 13
+        }
+      },
+      {
+        "id": "g1-006",
+        "genes": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "born": 1,
+        "parents": [
+          "g0-001",
+          "g0-002"
+        ],
+        "mutations": [],
+        "sources": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "objective": 625,
+        "fitness": 625,
+        "feasible": true,
+        "decoded": "x = 25",
+        "details": {
+          "x": 25,
+          "binary": 25
+        }
+      },
+      {
+        "id": "g1-007",
+        "genes": [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "born": 1,
+        "parents": [
+          "g0-003",
+          "g0-004"
+        ],
+        "mutations": [],
+        "sources": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "objective": 121,
+        "fitness": 121,
+        "feasible": true,
+        "decoded": "x = 11",
+        "details": {
+          "x": 11,
+          "binary": 11
+        }
+      },
+      {
+        "id": "g1-008",
+        "genes": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "born": 1,
+        "parents": [
+          "g0-003",
+          "g0-004"
+        ],
+        "mutations": [],
+        "sources": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "objective": 256,
+        "fitness": 256,
+        "feasible": true,
+        "decoded": "x = 16",
+        "details": {
+          "x": 16,
+          "binary": 16
+        }
+      },
+      {
+        "id": "g1-007",
+        "genes": [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "born": 1,
+        "parents": [
+          "g0-003",
+          "g0-004"
+        ],
+        "mutations": [],
+        "sources": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "objective": 121,
+        "fitness": 121,
+        "feasible": true,
+        "decoded": "x = 11",
+        "details": {
+          "x": 11,
+          "binary": 11
+        }
+      },
+      {
+        "id": "g1-008",
+        "genes": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "born": 1,
+        "parents": [
+          "g0-003",
+          "g0-004"
+        ],
+        "mutations": [],
+        "sources": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "objective": 256,
+        "fitness": 256,
+        "feasible": true,
+        "decoded": "x = 16",
+        "details": {
+          "x": 16,
+          "binary": 16
+        }
+      }
+    ],
+    "populations": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        6,
+        7,
+        10,
+        11
+      ]
+    ],
+    "events": [
+      {
+        "id": 0,
+        "generation": 0,
+        "stage": "initialize",
+        "random": [],
+        "selected": [],
+        "points": [],
+        "positions": [],
+        "message": "Created 4 binary chromosomes using seed 42.",
+        "technical": "Initialization uses a reproducible sampling stream; IDs and genes are recorded.",
+        "formula": "P_0 = \\{c_1,\\ldots,c_N\\}",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 4,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "population": 0,
+        "inputs": [],
+        "outputs": [],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 1,
+        "generation": 0,
+        "stage": "decode",
+        "random": [],
+        "selected": [],
+        "points": [],
+        "positions": [],
+        "message": "Translate each chromosome into a candidate solution. The first is x = 13.",
+        "technical": "Binary integers are mapped to the domain; permutations and characters decode directly.",
+        "formula": "x = a + \\frac{z}{2^L-1}(b-a)",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 4,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "population": 0,
+        "inputs": [],
+        "outputs": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 2,
+        "generation": 0,
+        "stage": "evaluate",
+        "random": [],
+        "selected": [],
+        "points": [],
+        "positions": [],
+        "message": "Each candidate receives an objective value and selection fitness. g0-001 decodes to x = 13; objective = 169.00, fitness = 169.00.",
+        "technical": "Selection maximizes fitness. g0-001: x = 13; objective 169; fitness 169. Fitness equals the objective.",
+        "formula": "F(13)=13^2=169",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 4,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "population": 0,
+        "inputs": [],
+        "outputs": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 3,
+        "generation": 0,
+        "stage": "statistics",
+        "random": [],
+        "selected": [],
+        "points": [],
+        "positions": [],
+        "message": "The initial population has average fitness 292.50 and 56.7% diversity.",
+        "technical": "Diversity is exact mean pairwise positional Hamming distance, normalized by chromosome length.",
+        "formula": "D=\\frac{\\sum_{i<j} d_H(c_i,c_j)}{L\\binom{N}{2}}",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 4,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "population": 0,
+        "inputs": [],
+        "outputs": [],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 4,
+        "generation": 0,
+        "stage": "select",
+        "random": [
+          {
+            "label": "selection sample",
+            "value": 0.1
+          }
+        ],
+        "selected": [
+          0
+        ],
+        "points": [],
+        "positions": [],
+        "message": "Selected chromosome g0-001 as parent 1. The random sample landed in its probability interval.",
+        "technical": "r = 0.1 falls in [0, 0.14444444444444443). Weights are nonnegative fitness; all-zero fitness falls back to uniform.",
+        "formula": "p_i=\\frac{w_i}{\\sum_j w_j}",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 4,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "probabilities": [
+          0.14444444444444443,
+          0.49230769230769234,
+          0.0547008547008547,
+          0.30854700854700856
+        ],
+        "cumulative": [
+          0.14444444444444443,
+          0.6367521367521367,
+          0.6914529914529914,
+          1
+        ],
+        "selectionMethod": "roulette",
+        "candidateIndices": [],
+        "population": 0,
+        "inputs": [
+          0
+        ],
+        "outputs": [],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 5,
+        "generation": 0,
+        "stage": "select",
+        "random": [
+          {
+            "label": "selection sample",
+            "value": 0.4
+          }
+        ],
+        "selected": [
+          1
+        ],
+        "points": [],
+        "positions": [],
+        "message": "Selected chromosome g0-002 as parent 2. The random sample landed in its probability interval.",
+        "technical": "r = 0.4 falls in [0.14444444444444443, 0.6367521367521367). Weights are nonnegative fitness; all-zero fitness falls back to uniform.",
+        "formula": "p_i=\\frac{w_i}{\\sum_j w_j}",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 4,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "probabilities": [
+          0.14444444444444443,
+          0.49230769230769234,
+          0.0547008547008547,
+          0.30854700854700856
+        ],
+        "cumulative": [
+          0.14444444444444443,
+          0.6367521367521367,
+          0.6914529914529914,
+          1
+        ],
+        "selectionMethod": "roulette",
+        "candidateIndices": [],
+        "population": 0,
+        "inputs": [
+          1
+        ],
+        "outputs": [],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 6,
+        "generation": 0,
+        "stage": "crossover",
+        "random": [
+          {
+            "label": "crossover probability check",
+            "value": 0
+          },
+          {
+            "label": "crossover cut",
+            "value": 0.5
+          }
+        ],
+        "selected": [],
+        "points": [
+          3
+        ],
+        "positions": [],
+        "message": "Recombined two parents with single crossover.",
+        "technical": "r = 0 < p_c = 1. Cuts are boundaries before the zero-based index; single-point cut 3 means after the third gene.",
+        "formula": "r < p_c",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 6,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "sources": [
+          [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0
+          ]
+        ],
+        "operatorApplied": true,
+        "population": 0,
+        "inputs": [
+          0,
+          1
+        ],
+        "outputs": [
+          4,
+          5
+        ],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 7,
+        "generation": 0,
+        "stage": "mutate",
+        "random": [
+          {
+            "label": "mutation gene 1",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 2",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 3",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 4",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 5",
+            "value": 0.05
+          },
+          {
+            "label": "mutation gene 1",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 2",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 3",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 4",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 5",
+            "value": 0.9
+          }
+        ],
+        "selected": [],
+        "points": [],
+        "positions": [
+          4
+        ],
+        "message": "Mutation changed 1 gene positions across the offspring.",
+        "technical": "bit mutation uses probability 0.1 independently per gene. Positions are shown using 1-based labels in the inspector.",
+        "formula": "r_i < p_m",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 8,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "operatorApplied": true,
+        "mutationChecksPassed": [
+          1,
+          0
+        ],
+        "population": 0,
+        "inputs": [
+          4,
+          5
+        ],
+        "outputs": [
+          6,
+          7
+        ],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 8,
+        "generation": 0,
+        "stage": "validate",
+        "random": [],
+        "selected": [],
+        "points": [],
+        "positions": [],
+        "message": "Offspring satisfy the chromosome representation. No repair was needed.",
+        "technical": "Permutation-safe operators preserve unique city/queen indices. Knapsack feasibility is handled by fitness, not genome repair.",
+        "formula": "c\\in\\mathcal{C}",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 8,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "population": 0,
+        "inputs": [],
+        "outputs": [
+          6,
+          7
+        ],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 9,
+        "generation": 0,
+        "stage": "offspring",
+        "random": [],
+        "selected": [],
+        "points": [],
+        "positions": [],
+        "message": "Recorded fitness for 2 accepted offspring. g1-005: fitness 169.00; g1-006: fitness 625.00.",
+        "technical": "g1-005: x = 13; objective=169; fitness=169. g1-006: x = 25; objective=625; fitness=625. Both offspring enter the replacement pool. Evaluations include pre-mutation preview outputs and all generated children.",
+        "formula": "F_{\\mathrm{child}} = F(c)",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 8,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "population": 0,
+        "inputs": [],
+        "outputs": [
+          6,
+          7
+        ],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 10,
+        "generation": 0,
+        "stage": "select",
+        "random": [
+          {
+            "label": "selection sample",
+            "value": 0.68
+          }
+        ],
+        "selected": [
+          2
+        ],
+        "points": [],
+        "positions": [],
+        "message": "Selected chromosome g0-003 as parent 1. The random sample landed in its probability interval.",
+        "technical": "r = 0.68 falls in [0.6367521367521367, 0.6914529914529914). Weights are nonnegative fitness; all-zero fitness falls back to uniform.",
+        "formula": "p_i=\\frac{w_i}{\\sum_j w_j}",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 8,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "probabilities": [
+          0.14444444444444443,
+          0.49230769230769234,
+          0.0547008547008547,
+          0.30854700854700856
+        ],
+        "cumulative": [
+          0.14444444444444443,
+          0.6367521367521367,
+          0.6914529914529914,
+          1
+        ],
+        "selectionMethod": "roulette",
+        "candidateIndices": [],
+        "population": 0,
+        "inputs": [
+          2
+        ],
+        "outputs": [],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 11,
+        "generation": 0,
+        "stage": "select",
+        "random": [
+          {
+            "label": "selection sample",
+            "value": 0.9
+          }
+        ],
+        "selected": [
+          3
+        ],
+        "points": [],
+        "positions": [],
+        "message": "Selected chromosome g0-004 as parent 2. The random sample landed in its probability interval.",
+        "technical": "r = 0.9 falls in [0.6914529914529914, 1). Weights are nonnegative fitness; all-zero fitness falls back to uniform.",
+        "formula": "p_i=\\frac{w_i}{\\sum_j w_j}",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 8,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "probabilities": [
+          0.14444444444444443,
+          0.49230769230769234,
+          0.0547008547008547,
+          0.30854700854700856
+        ],
+        "cumulative": [
+          0.14444444444444443,
+          0.6367521367521367,
+          0.6914529914529914,
+          1
+        ],
+        "selectionMethod": "roulette",
+        "candidateIndices": [],
+        "population": 0,
+        "inputs": [
+          3
+        ],
+        "outputs": [],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 12,
+        "generation": 0,
+        "stage": "crossover",
+        "random": [
+          {
+            "label": "crossover probability check",
+            "value": 0
+          },
+          {
+            "label": "crossover cut",
+            "value": 0.5
+          }
+        ],
+        "selected": [],
+        "points": [
+          3
+        ],
+        "positions": [],
+        "message": "Recombined two parents with single crossover.",
+        "technical": "r = 0 < p_c = 1. Cuts are boundaries before the zero-based index; single-point cut 3 means after the third gene.",
+        "formula": "r < p_c",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 10,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "sources": [
+          [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            0
+          ]
+        ],
+        "operatorApplied": true,
+        "population": 0,
+        "inputs": [
+          2,
+          3
+        ],
+        "outputs": [
+          8,
+          9
+        ],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 13,
+        "generation": 0,
+        "stage": "mutate",
+        "random": [
+          {
+            "label": "mutation gene 1",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 2",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 3",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 4",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 5",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 1",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 2",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 3",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 4",
+            "value": 0.9
+          },
+          {
+            "label": "mutation gene 5",
+            "value": 0.9
+          }
+        ],
+        "selected": [],
+        "points": [],
+        "positions": [],
+        "message": "No gene changes this time: all mutation checks failed.",
+        "technical": "bit mutation uses probability 0.1 independently per gene. Positions are shown using 1-based labels in the inspector.",
+        "formula": "r_i < p_m",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 12,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "operatorApplied": false,
+        "mutationChecksPassed": [
+          0,
+          0
+        ],
+        "population": 0,
+        "inputs": [
+          8,
+          9
+        ],
+        "outputs": [
+          10,
+          11
+        ],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 14,
+        "generation": 0,
+        "stage": "validate",
+        "random": [],
+        "selected": [],
+        "points": [],
+        "positions": [],
+        "message": "Offspring satisfy the chromosome representation. No repair was needed.",
+        "technical": "Permutation-safe operators preserve unique city/queen indices. Knapsack feasibility is handled by fitness, not genome repair.",
+        "formula": "c\\in\\mathcal{C}",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 12,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "population": 0,
+        "inputs": [],
+        "outputs": [
+          10,
+          11
+        ],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 15,
+        "generation": 0,
+        "stage": "offspring",
+        "random": [],
+        "selected": [],
+        "points": [],
+        "positions": [],
+        "message": "Recorded fitness for 2 accepted offspring. g1-007: fitness 121.00; g1-008: fitness 256.00.",
+        "technical": "g1-007: x = 11; objective=121; fitness=121. g1-008: x = 16; objective=256; fitness=256. Both offspring enter the replacement pool. Evaluations include pre-mutation preview outputs and all generated children.",
+        "formula": "F_{\\mathrm{child}} = F(c)",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 12,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "population": 0,
+        "inputs": [],
+        "outputs": [
+          10,
+          11
+        ],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 16,
+        "generation": 0,
+        "stage": "elites",
+        "random": [],
+        "selected": [],
+        "points": [],
+        "positions": [],
+        "message": "Preserved 0 elite chromosomes without mutation.",
+        "technical": "Elites receive copied gene arrays and a recorded single-parent lineage. Cached fitness is reused; elites do not add fitness evaluations.",
+        "formula": "P_{t+1}=E_t\\cup O_t",
+        "stats": {
+          "generation": 0,
+          "best": 576,
+          "bestEver": 576,
+          "average": 292.5,
+          "worst": 64,
+          "diversity": 0.5666666666666667,
+          "unique": 4,
+          "evaluations": 12,
+          "stagnant": 0,
+          "objective": 576,
+          "bestFeasibleObjective": 576,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "population": 0,
+        "inputs": [],
+        "outputs": [],
+        "bestEver": 1,
+        "bestFeasible": 1
+      },
+      {
+        "id": 17,
+        "generation": 1,
+        "stage": "replace",
+        "random": [],
+        "selected": [],
+        "points": [],
+        "positions": [],
+        "message": "Generation 1 is ready: 4 individuals, best fitness 625.00.",
+        "technical": "0 copied elites + 4 offspring. Best-ever fitness 625.00; 0 generations without improvement.",
+        "formula": "\\bar F=\\frac{1}{N}\\sum_{i=1}^{N}F(c_i)",
+        "stats": {
+          "generation": 1,
+          "best": 625,
+          "bestEver": 625,
+          "average": 292.75,
+          "worst": 121,
+          "diversity": 0.5333333333333333,
+          "unique": 4,
+          "evaluations": 12,
+          "stagnant": 0,
+          "objective": 625,
+          "bestFeasibleObjective": 625,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "population": 1,
+        "inputs": [],
+        "outputs": [
+          6,
+          7,
+          10,
+          11
+        ],
+        "bestEver": 7,
+        "bestFeasible": 7
+      },
+      {
+        "id": 18,
+        "generation": 1,
+        "stage": "statistics",
+        "random": [],
+        "selected": [],
+        "points": [],
+        "positions": [],
+        "message": "Average fitness is 292.75; 4 unique chromosomes remain.",
+        "technical": "Diversity describes population differences, not a guarantee of global convergence.",
+        "formula": "D=\\frac{\\sum_{i<j}d_H(c_i,c_j)}{L\\binom{N}{2}}",
+        "stats": {
+          "generation": 1,
+          "best": 625,
+          "bestEver": 625,
+          "average": 292.75,
+          "worst": 121,
+          "diversity": 0.5333333333333333,
+          "unique": 4,
+          "evaluations": 12,
+          "stagnant": 0,
+          "objective": 625,
+          "bestFeasibleObjective": 625,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "population": 1,
+        "inputs": [],
+        "outputs": [],
+        "bestEver": 7,
+        "bestFeasible": 7
+      },
+      {
+        "id": 19,
+        "generation": 1,
+        "stage": "stop",
+        "random": [],
+        "selected": [],
+        "points": [],
+        "positions": [],
+        "message": "Maximum generations reached",
+        "technical": "Stopped at generation 1 after 12 fitness evaluations.",
+        "formula": "\\mathrm{stop}=\\mathrm{limit}\\lor(\\mathrm{earlyStopping}\\land(\\mathrm{target}\\lor\\mathrm{stagnation}))",
+        "stats": {
+          "generation": 1,
+          "best": 625,
+          "bestEver": 625,
+          "average": 292.75,
+          "worst": 121,
+          "diversity": 0.5333333333333333,
+          "unique": 4,
+          "evaluations": 12,
+          "stagnant": 0,
+          "objective": 625,
+          "bestFeasibleObjective": 625,
+          "bestEverFeasible": true,
+          "targetReached": false
+        },
+        "reason": "Maximum generations reached",
+        "population": 1,
+        "inputs": [],
+        "outputs": [],
+        "bestEver": 7,
+        "bestFeasible": 7
+      }
+    ]
+  }
+}
